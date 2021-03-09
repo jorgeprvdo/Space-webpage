@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 8.6vh;
+    background-color: transparent;
+    color: white;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: auto;
+    font-family: consolas;
+}
+
+h2 {
+    margin-left: 10px;
+}
+
+nav {
+    width: auto;
+    margin-right: 500px;
+    font-size: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    justify-content: center;
+    padding: 30px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    transition: 0.5s;
+}
+
+/* Main */
+
+#welcome {
+    width: 100%;
+    height: 500px;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/assets/img/fondomorado.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#titulo {
+    margin-left: 10px;
+}
+
+#titulo1 {
+    color: white;
+    margin-bottom: auto;
+    font-size: 40px;
+    font-family: Ebrima;;
+}
+
+#botones {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 150px;
+}
+
+#boton1 {
+    margin-right: 90px;
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color:rgb(55, 22, 94);
+    border: none;
+    font-family: Ebrima;
+    font-weight: bold;
+}
+
+#boton2 {
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    background-color:rgb(55, 22, 94);
+    border: none;
+    font-family: Ebrima;
+    font-weight: bold;
+}
+
+
+/* Etiqueta icono Luna, Rocket y Satelite */
+
+.desc {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: Ebrima;
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+}
+
+#luna{
+    margin-top: 30px;
+    font-size: 90px;
+    text-align: center;
+    margin-left: 100px;
+    color: #442A89;
+}
+
+#rocket {
+    margin-top: 30px;
+    font-size: 90px;
+    text-align: center;
+    margin-left: 100px;
+    color: #BC61A4;
+}
+
+#satelite {
+    margin-top: 30px;
+    font-size: 90px;
+    text-align: center;
+    margin-left: 100px;
+    color: #730FAC;
+}
+
+.card-link {
+    margin-top: 20px;
+    color: #A97CC3;
+    font-size: 20px;
+    font-family: Consolas;
+}
+
+/* Cards imagenes con descripcion */
+
+.descInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #391A49;
+}
+
+#col1 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: black 2px solid;
+    border-radius: 15px;
+    border: none;
+    width: auto;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+#col2 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    width: auto;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 20px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+#col3 {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 15px;
+    width: auto;
+    background-color: white;
+    margin-top: 30px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+#card1 {
+    margin-top: 15px;
+}
+
+#card2 {
+    margin-top: 15px;
+}
+
+#card3 {
+    margin-top: 15px;
+}
+
+.card-title {
+    font-family: Ebrima;
+}
+
+.card-text {
+    font-family: Ebrima;
+}
+
+#ligadesc {
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #391A49;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: Ebrima;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/*Footer*/
+
+footer {
+    background: white;
+    color: black;
+    height: auto;
+    width: 100vw;
+    font-family: Futura;
+    padding-top: 40px;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+   list-style: none;
+   display: flex; 
+   align-items: center;
+   justify-content: center;
+   margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: black;
+}
+
+.socials a i{
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.socials a:hover i {
+    color: rebeccapurple;
+}
+
+.footer-bottom {
+    background: #391A49;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+    color: white;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
