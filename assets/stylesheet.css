@@ -22,7 +22,7 @@ h2 {
 
 nav {
     width: auto;
-    margin-right: 500px;
+    margin-right: 510px;
     font-size: 20px;
 }
 
@@ -63,7 +63,7 @@ nav a {
 #titulo1 {
     color: white;
     margin-bottom: auto;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Ebrima;;
 }
 
@@ -311,4 +311,19 @@ footer {
     font-size: 14px;
     word-spacing: 2px;
     text-transform: capitalize;
+}
+
+
+/* Hover */
+
+#boton1:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+#boton2:hover {
+    background-color: white;
+    color: black;
+    transition: 0.5s;
 }
